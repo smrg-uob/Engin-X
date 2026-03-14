@@ -8,7 +8,6 @@ This repository contains a Python control script for performing in-situ fatigue 
 The script is designed for autonomous cyclic loading with periodic neutron diffraction measurements.
 
 
-
 ##### System Architecture
 
 The ENGIN-X Instron MiniTower is controlled through the IBEX control system.
@@ -17,19 +16,7 @@ The ENGIN-X Instron MiniTower is controlled through the IBEX control system.
 
 ###### Control chain:
 
-Python Script (Genie / IBEX)
-|
-▼
-IBEX IOC (ENGIN-X)
-│
-▼
-Instron Console software
-│
-▼
-Instron MiniTower controller
-│
-▼
-Mechanical stress rig
+Python Script (Genie / IBEX) -> IBEX IOC (ENGIN-X) -> Instron Console software ->  Instron MiniTower controller -> Mechanical stress rig
 
 
 
