@@ -18,7 +18,7 @@ The ENGIN-X Instron MiniTower is controlled through the IBEX control system.
 ###### Control chain:
 
 Python Script (Genie / IBEX)
-│
+|
 ▼
 IBEX IOC (ENGIN-X)
 │
