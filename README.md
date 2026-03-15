@@ -20,7 +20,7 @@ Python Script (Genie / IBEX) -> IBEX IOC (ENGIN-X) -> Instron Console software -
 
 
 
-Important notes:
+**Important notes**:
 The Instron rig is connected to a dedicated control PC (enginx-stress-1).
 The Instron Console software must be running for IBEX control to function.
 
@@ -42,7 +42,7 @@ Before cyclic loading begins, the script performs measurements at a small strain
 
 
 
-2\. Start Cyclic Loading
+2. Start Cyclic Loading
 
 After the elastic measurements:
 
@@ -52,7 +52,7 @@ After the elastic measurements:
 
 
 
-3\. Autonomous Cycle Monitoring
+3. Autonomous Cycle Monitoring
 
 &#x09;The script continuously monitors:
 
@@ -62,13 +62,13 @@ After the elastic measurements:
 
 &#x09;	peak compressive stress
 
-4\. Neutron Diffraction Measurements
+4. Neutron Diffraction Measurements
 
 At predefined cycles the waveform is paused and diffraction measurements are taken.
 
 
 
-5\. Failure Detection
+5. Failure Detection
 
 The script monitors maximum stress during cycling.
 
